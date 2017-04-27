@@ -1,6 +1,6 @@
 # npmtest-vinyl-fs
 
-#### test coverage for  [vinyl-fs (v2.4.4)](http://github.com/wearefractal/vinyl-fs)  [![npm package](https://img.shields.io/npm/v/npmtest-vinyl-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vinyl-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vinyl-fs.svg)](https://travis-ci.org/npmtest/node-npmtest-vinyl-fs)
+#### basic test coverage for  [vinyl-fs (v2.4.4)](http://github.com/wearefractal/vinyl-fs)  [![npm package](https://img.shields.io/npm/v/npmtest-vinyl-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vinyl-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vinyl-fs.svg)](https://travis-ci.org/npmtest/node-npmtest-vinyl-fs)
 
 #### Vinyl adapter for the file system
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-vinyl-fs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-vinyl-fs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-vinyl-fs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-vinyl-fs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vinyl-fs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vinyl-fs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-vinyl-fs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-vinyl-fs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vinyl-fs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vinyl-fs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-vinyl-fs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-vinyl-fs/build/coverage.html/index.html)
 
@@ -120,7 +120,8 @@
         "lint": "eslint . && jscs index.js lib/ test/",
         "test": "npm run lint && mocha"
     },
-    "version": "2.4.4"
+    "version": "2.4.4",
+    "bin": {}
 }
 ```
 
